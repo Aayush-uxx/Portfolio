@@ -1,5 +1,6 @@
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import Hero from "./Hero";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
@@ -10,15 +11,15 @@ function Home() {
     <>
       <Header />
 
-      <section id="home">
-        <Home />
+      <section id="hero">
+        <Hero />
       </section>
 
       <section id="about">
         <About />
       </section>
 
-      <section id="skills">
+      <section id="skill">
         <Skill />
       </section>
 

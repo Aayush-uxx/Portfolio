@@ -1,0 +1,145 @@
+.hero {
+    min-height: 100vh;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 8%;
+  
+    background: #0f172a;
+    color: white;
+  }
+  
+  .heroContent {
+    max-width: 650px;
+  }
+  
+  .heroGreeting {
+    font-size: 1.2rem;
+    color: #94a3b8;
+    margin-bottom: 10px;
+  }
+  
+  .heroName {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin-bottom: 10px;
+  }
+  
+  .heroRole {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .heroDescription {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+  }
+  
+  .heroButtons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .primaryBtn,
+  .secondaryBtn {
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .primaryBtn {
+    background: #38bdf8;
+    color: white;
+  }
+  
+  .primaryBtn:hover {
+    transform: translateY(-3px);
+  }
+  
+  .secondaryBtn {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+  }
+  
+  .secondaryBtn:hover {
+    background: #38bdf8;
+    color: white;
+  }
+  
+  .heroImage img {
+    width: 350px;
+    border-radius: 50%;
+  }
+  @media (max-width: 1024px){
+
+    .hero{
+        gap: 30px;
+    }
+
+    .heroName{
+        font-size: 3rem;
+    }
+
+    .heroRole{
+        font-size: 1.8rem;
+    }
+
+}
+@media (max-width: 768px){
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+
+        padding: 120px 20px 60px;
+    }
+
+    .heroButtons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .heroName{
+        font-size: 2.5rem;
+    }
+
+    .heroRole{
+        font-size: 1.4rem;
+    }
+
+    .heroDescription{
+        font-size: 1rem;
+    }
+
+    .heroImage img{
+        width: 250px;
+    }
+}
+@media (max-width: 480px){
+
+    .heroName{
+        font-size: 2rem;
+    }
+
+    .heroRole{
+        font-size: 1.2rem;
+    }
+
+    .heroButtons{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .primaryBtn,
+    .secondaryBtn{
+        width: 100%;
+    }
+
+}
