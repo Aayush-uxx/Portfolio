@@ -4,20 +4,20 @@ const sendMessage = async (req, res) => {
   try {
     const { name, email, message } = req.body;
 
-    if (!name || name.length < 2) {
-      return res.status(401).json({
+    if (!name || name.trim().length < 2) {
+      return res.status(400).json({
         message: "Name is required and must have more than 2 letters",
       });
     }
 
     if (typeof name !== "string") {
-      return res.status(401).json({
+      return res.status(400).json({
         message: "Name should be string",
       });
     }
 
     if (!email) {
-      return res.status(401).json({
+      return res.status(400).json({
         message: "Email is required",
       });
     }
@@ -30,7 +30,7 @@ const sendMessage = async (req, res) => {
       });
     }
 
-    if (!message || message.length < 5) {
+    if (!message || message.trim().length < 5) {
       return res.status(401).json({
         message: "Message should be long",
       });
