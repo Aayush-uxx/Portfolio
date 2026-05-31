@@ -1,12 +1,9 @@
 .hero{
   min-height:100vh;
-
   display:flex;
   align-items:center;
   justify-content:space-between;
-
   gap:60px;
-
   padding:120px 8% 60px;
 }
 
@@ -17,58 +14,49 @@
 .heroGreeting{
   font-size:1.1rem;
   color:var(--text-secondary);
-
   margin-bottom:10px;
 }
 
 .heroName{
   font-size:4rem;
   color:var(--text);
-
   line-height:1.1;
-
   margin-bottom:10px;
 }
 
 .heroRole{
   font-size:2rem;
-
   color:var(--accent);
-
   margin-bottom:20px;
 }
 
 .heroDescription{
   max-width:650px;
-
   font-size:1.05rem;
-
   line-height:1.8;
-
   color:var(--text-secondary);
-
   margin-bottom:30px;
 }
 
 .heroButtons{
   display:flex;
   gap:15px;
+  flex-wrap:wrap;
 }
+
 .primaryBtn{
   background:var(--accent);
   text-decoration: none;
   color:white;
-
   padding:14px 28px;
-
   border-radius:12px;
-
   transition:.3s ease;
+  display:inline-block;
+  text-align:center;
 }
 
 .primaryBtn:hover{
   background:#713600;
-
   transform:translateY(-3px);
 }
 
@@ -76,22 +64,20 @@
   border:2px solid var(--accent);
   text-decoration: none;
   color:var(--accent);
-
   padding:14px 28px;
-
   border-radius:12px;
-
   transition:.3s ease;
+  display:inline-block;
+  text-align:center;
 }
 
 .secondaryBtn:hover{
   background:var(--accent);
-
   color:white;
 }
+
 .heroImage{
   flex:1;
-
   display:flex;
   justify-content:center;
 }
@@ -99,33 +85,104 @@
 .heroImage img{
   width:380px;
   height:380px;
-
   object-fit:cover;
-
   border-radius:50%;
-
   border:8px solid rgba(192,88,0,.15);
-
-  box-shadow:
-  0 15px 40px rgba(56,36,13,.15);
-}
-.heroImage{
-  flex:1;
-
-  display:flex;
-  justify-content:center;
+  box-shadow:0 15px 40px rgba(56,36,13,.15);
 }
 
-.heroImage img{
-  width:380px;
-  height:380px;
+/* Tablet Responsive */
+@media(max-width:1024px){
+  .hero{
+    padding:100px 6% 50px;
+    gap:40px;
+  }
 
-  object-fit:cover;
+  .heroName{
+    font-size:3rem;
+  }
 
-  border-radius:50%;
+  .heroRole{
+    font-size:1.5rem;
+  }
 
-  border:8px solid rgba(192,88,0,.15);
+  .heroImage img{
+    width:300px;
+    height:300px;
+  }
+}
 
-  box-shadow:
-  0 15px 40px rgba(56,36,13,.15);
+/* Mobile Responsive */
+@media(max-width:768px){
+  .hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:100px 5% 50px;
+    gap:40px;
+  }
+
+  .heroContent{
+    text-align:center;
+  }
+
+  .heroName{
+    font-size:2.2rem;
+  }
+
+  .heroRole{
+    font-size:1.3rem;
+  }
+
+  .heroDescription{
+    font-size:0.95rem;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .heroButtons{
+    justify-content:center;
+  }
+
+  .primaryBtn, .secondaryBtn{
+    padding:12px 24px;
+    font-size:0.9rem;
+  }
+
+  .heroImage img{
+    width:220px;
+    height:220px;
+  }
+}
+
+/* Small Mobile */
+@media(max-width:480px){
+  .hero{
+    padding:90px 4% 40px;
+  }
+
+  .heroName{
+    font-size:1.8rem;
+  }
+
+  .heroRole{
+    font-size:1.1rem;
+  }
+
+  .heroDescription{
+    font-size:0.9rem;
+  }
+
+  .heroButtons{
+    gap:10px;
+  }
+
+  .primaryBtn, .secondaryBtn{
+    padding:10px 20px;
+    font-size:0.85rem;
+  }
+
+  .heroImage img{
+    width:180px;
+    height:180px;
+  }
 }

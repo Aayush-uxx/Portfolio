@@ -73,7 +73,7 @@ function Contact() {
 
     setTimeout(() => {
       setShowPopup(false);
-    }, 1000);
+    }, 1500);
   };
 
   const handleSubmit = async (e) => {
@@ -111,8 +111,6 @@ function Contact() {
         "Message Sent Successfully!",
         "Thank you for reaching out. I'll get back to you soon."
       );
-
-      setSuccess("Message sent successfully!");
 
       setFormData({
         name: "",

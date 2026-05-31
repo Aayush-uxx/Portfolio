@@ -33,6 +33,7 @@ body{
   color:var(--text);
   font-family:Inter, Arial, sans-serif;
   transition:all 0.3s ease;
+  overflow-x:hidden;
 }
 
 a{
@@ -44,6 +45,39 @@ section{
   padding:100px 8%;
 }
 
+/* Responsive section padding */
+@media(max-width:1024px){
+  section{
+    padding:80px 6%;
+  }
+}
+
+@media(max-width:768px){
+  section{
+    padding:60px 5%;
+  }
+}
+
+@media(max-width:480px){
+  section{
+    padding:50px 4%;
+  }
+}
+
 img{
   max-width:100%;
+  height:auto;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, .skillCard, .primaryBtn, .secondaryBtn{
+  transition: all 0.3s ease;
+}
+
+/* Better touch targets on mobile */
+@media(max-width:768px){
+  button, a, .menuBtn, .themeBtn{
+    min-height:44px;
+    min-width:44px;
+  }
 }
