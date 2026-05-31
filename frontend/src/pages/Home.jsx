@@ -6,10 +6,10 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Skill from "./Skill";
 
-function Home() {
+function Home({ theme, setTheme }) {
   return (
     <>
-      <Header />
+      <Header theme={theme} setTheme={setTheme} />
 
       <section id="hero">
         <Hero />

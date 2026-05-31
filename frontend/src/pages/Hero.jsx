@@ -1,17 +1,20 @@
 import "./Hero.css";
+
 function Hero() {
   return (
     <section className="hero">
       <div className="heroContent">
         <p className="heroGreeting">Hello, I'm</p>
 
-        <h1 className="heroName">Aayush</h1>
+        <h1 className="heroName">Aayush Chaudhary</h1>
 
         <h2 className="heroRole">MERN Stack Developer</h2>
 
         <p className="heroDescription">
-          Building responsive and scalable web applications using MongoDB,
-          Express.js, React.js and Node.js.
+          I build responsive and scalable web applications using MongoDB,
+          Express.js, React.js and Node.js. Passionate about problem solving,
+          API integration, debugging, authentication systems and creating modern
+          user experiences.
         </p>
 
         <div className="heroButtons">

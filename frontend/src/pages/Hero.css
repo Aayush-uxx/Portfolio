@@ -1,145 +1,131 @@
-.hero {
-    min-height: 100vh;
-  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0 8%;
-  
-    background: #0f172a;
-    color: white;
-  }
-  
-  .heroContent {
-    max-width: 650px;
-  }
-  
-  .heroGreeting {
-    font-size: 1.2rem;
-    color: #94a3b8;
-    margin-bottom: 10px;
-  }
-  
-  .heroName {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #38bdf8;
-    margin-bottom: 10px;
-  }
-  
-  .heroRole {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .heroDescription {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #cbd5e1;
-    margin-bottom: 30px;
-  }
-  
-  .heroButtons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .primaryBtn,
-  .secondaryBtn {
-    text-decoration: none;
-    padding: 14px 28px;
-    border-radius: 8px;
-    transition: 0.3s ease;
-  }
-  
-  .primaryBtn {
-    background: #38bdf8;
-    color: white;
-  }
-  
-  .primaryBtn:hover {
-    transform: translateY(-3px);
-  }
-  
-  .secondaryBtn {
-    border: 1px solid #38bdf8;
-    color: #38bdf8;
-  }
-  
-  .secondaryBtn:hover {
-    background: #38bdf8;
-    color: white;
-  }
-  
-  .heroImage img {
-    width: 350px;
-    border-radius: 50%;
-  }
-  @media (max-width: 1024px){
+.hero{
+  min-height:100vh;
 
-    .hero{
-        gap: 30px;
-    }
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 
-    .heroName{
-        font-size: 3rem;
-    }
+  gap:60px;
 
-    .heroRole{
-        font-size: 1.8rem;
-    }
-
+  padding:120px 8% 60px;
 }
-@media (max-width: 768px){
 
-    .hero{
-        flex-direction: column-reverse;
-        text-align: center;
-        justify-content: center;
-
-        padding: 120px 20px 60px;
-    }
-
-    .heroButtons{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .heroName{
-        font-size: 2.5rem;
-    }
-
-    .heroRole{
-        font-size: 1.4rem;
-    }
-
-    .heroDescription{
-        font-size: 1rem;
-    }
-
-    .heroImage img{
-        width: 250px;
-    }
+.heroContent{
+  flex:1;
 }
-@media (max-width: 480px){
 
-    .heroName{
-        font-size: 2rem;
-    }
+.heroGreeting{
+  font-size:1.1rem;
+  color:var(--text-secondary);
 
-    .heroRole{
-        font-size: 1.2rem;
-    }
+  margin-bottom:10px;
+}
 
-    .heroButtons{
-        flex-direction: column;
-        width: 100%;
-    }
+.heroName{
+  font-size:4rem;
+  color:var(--text);
 
-    .primaryBtn,
-    .secondaryBtn{
-        width: 100%;
-    }
+  line-height:1.1;
 
+  margin-bottom:10px;
+}
+
+.heroRole{
+  font-size:2rem;
+
+  color:var(--accent);
+
+  margin-bottom:20px;
+}
+
+.heroDescription{
+  max-width:650px;
+
+  font-size:1.05rem;
+
+  line-height:1.8;
+
+  color:var(--text-secondary);
+
+  margin-bottom:30px;
+}
+
+.heroButtons{
+  display:flex;
+  gap:15px;
+}
+.primaryBtn{
+  background:var(--accent);
+  text-decoration: none;
+  color:white;
+
+  padding:14px 28px;
+
+  border-radius:12px;
+
+  transition:.3s ease;
+}
+
+.primaryBtn:hover{
+  background:#713600;
+
+  transform:translateY(-3px);
+}
+
+.secondaryBtn{
+  border:2px solid var(--accent);
+  text-decoration: none;
+  color:var(--accent);
+
+  padding:14px 28px;
+
+  border-radius:12px;
+
+  transition:.3s ease;
+}
+
+.secondaryBtn:hover{
+  background:var(--accent);
+
+  color:white;
+}
+.heroImage{
+  flex:1;
+
+  display:flex;
+  justify-content:center;
+}
+
+.heroImage img{
+  width:380px;
+  height:380px;
+
+  object-fit:cover;
+
+  border-radius:50%;
+
+  border:8px solid rgba(192,88,0,.15);
+
+  box-shadow:
+  0 15px 40px rgba(56,36,13,.15);
+}
+.heroImage{
+  flex:1;
+
+  display:flex;
+  justify-content:center;
+}
+
+.heroImage img{
+  width:380px;
+  height:380px;
+
+  object-fit:cover;
+
+  border-radius:50%;
+
+  border:8px solid rgba(192,88,0,.15);
+
+  box-shadow:
+  0 15px 40px rgba(56,36,13,.15);
 }
