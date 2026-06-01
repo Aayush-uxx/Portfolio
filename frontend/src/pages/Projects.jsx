@@ -17,11 +17,11 @@ const projectsData = [
     id: 1,
     title: "E-Commerce Platform",
     category: "MERN",
-    image: "https://via.placeholder.com/600x400",
+    image: "/images/portfolio.jpg",
     shortDesc:
       "Full-featured e-commerce platform with cart and payment integration",
     longDesc:
-      "A complete e-commerce solution built with MERN stack. Features include user authentication, product management, shopping cart, order tracking, payment gateway integration (Stripe), admin dashboard, and responsive design. Implemented JWT for secure authentication, Redux for state management, and MongoDB for data persistence.",
+      "Still in development phase A complete e-commerce solution built with MERN stack. Features include user authentication, product management, shopping cart, order tracking, payment gateway integration (Stripe), admin dashboard, and responsive design. Implemented JWT for secure authentication, Redux for state management, and MongoDB for data persistence.",
     techStack: [
       "React.js",
       "Node.js",
@@ -40,7 +40,7 @@ const projectsData = [
       "Product reviews & ratings",
     ],
     liveDemo: "https://example.com/demo",
-    github: "https://github.com/Aayush-uxx/ecommerce",
+    github: "https://github.com/Aayush-uxx/mern-ecommerce",
     challenges:
       "Implemented real-time inventory management and payment gateway integration.",
     solutions:
@@ -50,10 +50,10 @@ const projectsData = [
     id: 2,
     title: "Task Management App",
     category: "MERN",
-    image: "https://via.placeholder.com/600x400",
+    image: "/images/portfolio.jpg",
     shortDesc: "Collaborative task management with real-time updates",
     longDesc:
-      "A Trello-like task management application allowing teams to collaborate effectively. Features include drag-and-drop boards, task assignment, due dates, comments, file attachments, and real-time notifications. Built with Socket.io for real-time updates and MongoDB for data storage.",
+      "Still in development phase : A Trello-like task management application allowing teams to collaborate effectively. Features include drag-and-drop boards, task assignment, due dates, comments, file attachments, and real-time notifications. Built with Socket.io for real-time updates and MongoDB for data storage.",
     techStack: [
       "React.js",
       "Node.js",
@@ -80,44 +80,13 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Social Media Dashboard",
-    category: "React",
-    image: "https://via.placeholder.com/600x400",
-    shortDesc: "Analytics dashboard for social media metrics",
-    longDesc:
-      "Interactive dashboard displaying social media analytics including engagement rates, follower growth, post performance, and audience demographics. Features customizable widgets, data export, and real-time data updates.",
-    techStack: [
-      "React.js",
-      "Chart.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-    ],
-    features: [
-      "Real-time analytics",
-      "Customizable widgets",
-      "Data export (CSV/PDF)",
-      "Performance metrics",
-      "Audience insights",
-      "Report generation",
-      "Multi-platform support",
-    ],
-    liveDemo: "https://example.com/dashboard",
-    github: "https://github.com/Aayush-uxx/dashboard",
-    challenges:
-      "Processing large datasets efficiently for real-time analytics.",
-    solutions: "Implemented data caching and optimized API calls.",
-  },
-  {
-    id: 4,
     title: "Portfolio Website",
     category: "Frontend",
-    image: "https://via.placeholder.com/600x400",
+    image: "/images/portfolio.png",
     shortDesc: "Modern portfolio with dark mode and animations",
     longDesc:
       "Personal portfolio website showcasing skills and projects. Features dark/light theme, smooth animations, responsive design, contact form with email integration, and project filtering.",
-    techStack: ["React.js", "CSS3", "EmailJS", "Framer Motion"],
+    techStack: ["React.js", "CSS3", "Node.js", "Framer Motion"],
     features: [
       "Dark/Light theme",
       "Smooth animations",
@@ -127,7 +96,7 @@ const projectsData = [
       "SEO optimized",
     ],
     liveDemo: "https://aayush.dev",
-    github: "https://github.com/Aayush-uxx/portfolio",
+    github: "https://github.com/Aayush-uxx/FUTURE_FS_01",
     challenges: "Implementing smooth theme transitions without flash.",
     solutions: "Used CSS variables and React Context for theme management.",
   },

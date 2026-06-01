@@ -29,7 +29,10 @@ function Hero() {
       </div>
 
       <div className="heroImage">
-        <img src="/profile.png" alt="Aayush" />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+          alt="Aayush"
+        />
       </div>
     </section>
   );
