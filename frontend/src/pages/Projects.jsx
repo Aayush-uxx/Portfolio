@@ -95,7 +95,8 @@ const projectsData = [
       "Project filtering",
       "SEO optimized",
     ],
-    liveDemo: "https://aayush.dev",
+    liveDemo:
+      "https://portfolioaayush-git-main-aayush-s-projects13.vercel.app/",
     github: "https://github.com/Aayush-uxx/FUTURE_FS_01",
     challenges: "Implementing smooth theme transitions without flash.",
     solutions: "Used CSS variables and React Context for theme management.",
