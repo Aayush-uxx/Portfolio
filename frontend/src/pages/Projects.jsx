@@ -1,5 +1,5 @@
 import "./Projects.css";
-import crmImg from "/images/crm.jpg";
+import crmImg from "../assets/images/crm.jpg";
 import { useState } from "react";
 import {
   FaGithub,
