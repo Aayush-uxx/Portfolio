@@ -18,7 +18,7 @@ const projectsData = [
     id: 1,
     title: "E-Commerce Platform",
     category: "MERN",
-    image: "/images/portfolio.png",
+    image: "https://placehold.co/600x400/30525C/white?text=E-Commerce",
     shortDesc:
       "Full-featured e-commerce platform with cart and payment integration",
     longDesc:
