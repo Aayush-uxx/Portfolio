@@ -1,4 +1,5 @@
 import "./Projects.css";
+import crmImg from "/public/images/crm.jpg";
 import { useState } from "react";
 import {
   FaGithub,
@@ -50,7 +51,7 @@ const projectsData = [
     id: 2,
     title: "Mini CRM",
     category: "MERN",
-    image: "/images/crm.jpg",
+    image: crmImg,
     shortDesc:
       "A mini crm web application for managing the leads and notes of the customers ",
     longDesc:
