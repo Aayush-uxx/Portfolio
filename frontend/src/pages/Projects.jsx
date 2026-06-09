@@ -48,35 +48,20 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Mini CRM",
     category: "MERN",
-    image: "/images/portfolio.jpg",
-    shortDesc: "Collaborative task management with real-time updates",
+    image: "/images/crm1.jpg",
+    shortDesc:
+      "A mini crm web application for managing the leads and notes of the customers ",
     longDesc:
-      "Still in development phase : A Trello-like task management application allowing teams to collaborate effectively. Features include drag-and-drop boards, task assignment, due dates, comments, file attachments, and real-time notifications. Built with Socket.io for real-time updates and MongoDB for data storage.",
-    techStack: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Socket.io",
-      "TailwindCSS",
-    ],
-    features: [
-      "Drag & drop boards",
-      "Real-time updates",
-      "Task assignment",
-      "Due date reminders",
-      "File attachments",
-      "Team collaboration",
-      "Activity logs",
-    ],
-    liveDemo: "https://example.com/taskmanager",
-    github: "https://github.com/Aayush-uxx/taskmanager",
-    challenges:
-      "Managing real-time updates across multiple users simultaneously.",
+      "Use this dummy account for login :'aayush@gmail.com','aayush123'. This project is made in MERN stack and also used Typescript and TailwinCSs. This app helps in creating the leads and notes of the customers and check by the admin to change the satus into new contacted and converted. ",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
+    features: ["Create leads", "Managing the status"],
+    liveDemo: "https://minicrmfront.vercel.app/login",
+    github: "https://github.com/Aayush-uxx/FUTURE_FS_02",
+    challenges: "Managing all the Realtionship of the customers",
     solutions:
-      "Implemented WebSocket connections and optimized database queries.",
+      "Implemented CRUD operation with a very friendly UI for the Admin",
   },
   {
     id: 3,
