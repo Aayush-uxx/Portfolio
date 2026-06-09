@@ -1,4 +1,5 @@
 import "./Projects.css";
+import crmImg from "/images/crm.JPG";
 import { useState } from "react";
 import {
   FaGithub,
@@ -50,7 +51,7 @@ const projectsData = [
     id: 2,
     title: "Mini CRM",
     category: "MERN",
-    image: "/public/images/crm.jpg",
+    image: crmImg,
     shortDesc:
       "A mini crm web application for managing the leads and notes of the customers ",
     longDesc:
@@ -67,7 +68,7 @@ const projectsData = [
     id: 3,
     title: "Portfolio Website",
     category: "Frontend",
-    image: "/public/images/portfolio.png",
+    image: "../assets/hero.png",
     shortDesc: "Modern portfolio with dark mode and animations",
     longDesc:
       "Personal portfolio website showcasing skills and projects. Features dark/light theme, smooth animations, responsive design, contact form with email integration, and project filtering.",
