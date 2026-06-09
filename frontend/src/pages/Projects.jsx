@@ -1,15 +1,9 @@
 import "./Projects.css";
-import crmImg from "../assets/images/crm.jpg";
 import { useState } from "react";
 import {
   FaGithub,
   FaExternalLinkAlt,
   FaTimes,
-  FaCode,
-  FaDatabase,
-  FaShieldAlt,
-  FaMobile,
-  FaDesktop,
   FaArrowRight,
 } from "react-icons/fa";
 
@@ -18,7 +12,7 @@ const projectsData = [
     id: 1,
     title: "E-Commerce Platform",
     category: "MERN",
-    image: "https://placehold.co/600x400/30525C/white?text=E-Commerce",
+    image: "/images/crm.png",
     shortDesc:
       "Full-featured e-commerce platform with cart and payment integration",
     longDesc:
@@ -51,7 +45,7 @@ const projectsData = [
     id: 2,
     title: "Mini CRM",
     category: "MERN",
-    image: crmImg,
+    image: "/images/crm.jpg",
     shortDesc:
       "A mini crm web application for managing the leads and notes of the customers ",
     longDesc:
@@ -68,7 +62,7 @@ const projectsData = [
     id: 3,
     title: "Portfolio Website",
     category: "Frontend",
-    image: "../assets/hero.png",
+    image: "/images/portfolio.jpg",
     shortDesc: "Modern portfolio with dark mode and animations",
     longDesc:
       "Personal portfolio website showcasing skills and projects. Features dark/light theme, smooth animations, responsive design, contact form with email integration, and project filtering.",
