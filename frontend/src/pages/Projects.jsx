@@ -17,7 +17,7 @@ const projectsData = [
     id: 1,
     title: "E-Commerce Platform",
     category: "MERN",
-    image: "/images/portfolio.jpg",
+    image: "/images/portfolio.png",
     shortDesc:
       "Full-featured e-commerce platform with cart and payment integration",
     longDesc:
@@ -50,7 +50,7 @@ const projectsData = [
     id: 2,
     title: "Mini CRM",
     category: "MERN",
-    image: "/images/crm1.jpg",
+    image: "/images/crm.jpg",
     shortDesc:
       "A mini crm web application for managing the leads and notes of the customers ",
     longDesc:
