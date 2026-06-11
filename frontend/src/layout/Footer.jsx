@@ -58,6 +58,7 @@ function Footer() {
             <div className="footerContactItem">
               <FaEnvelope />
               <span>xaayush977@gmail.com</span>
+              <span>+9779709171230</span>
             </div>
             <div className="footerContactItem">
               <FaMapMarkerAlt />
