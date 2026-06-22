@@ -81,6 +81,28 @@ const projectsData = [
     challenges: "Implementing smooth theme transitions without flash.",
     solutions: "Used CSS variables and React Context for theme management.",
   },
+  {
+    id: 4,
+    title: "Precision cuts",
+    category: "MERN",
+    image: "/images/salon.JPG",
+    shortDesc: "Modern Haircut website",
+    longDesc:
+      "The objective of this system was to develop the booking system in haircut shop so people don't need to wait when visiting the shop. In traditional system people need to wait for their turn and need to visit early for queue.",
+    techStack: ["React.js", "CSS3", "Node.js", "Framer Motion","Next.js"],
+    features: [
+      "Dark/Light theme",
+      "Booking system",
+      "Admin panel",
+      "Fully responsive",
+      "SEO optimized",
+    ],
+    liveDemo:
+      "https://salonfrontend-xi.vercel.app/",
+    github: "https://github.com/Aayush-uxx/FUTURE_FS_03",
+    challenges: "Implementing Booking System for the user",
+    solutions: "Used CSS variables and React Context for theme management.",
+  },
 ];
 
 function Projects() {
