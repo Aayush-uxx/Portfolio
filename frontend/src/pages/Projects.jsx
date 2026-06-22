@@ -88,7 +88,7 @@ const projectsData = [
     image: "/images/salon.JPG",
     shortDesc: "Modern Haircut website",
     longDesc:
-      "The objective of this system was to develop the booking system in haircut shop so people don't need to wait when visiting the shop. In traditional system people need to wait for their turn and need to visit early for queue.",
+      "use Test credential:'aayush@gmail.com','aayush123' for user and 'admin@gmail.com' 'admin123' accountThe objective of this system was to develop the booking system in haircut shop so people don't need to wait when visiting the shop. In traditional system people need to wait for their turn and need to visit early for queue.",
     techStack: ["React.js", "CSS3", "Node.js", "Framer Motion","Next.js"],
     features: [
       "Dark/Light theme",
@@ -138,7 +138,7 @@ function Projects() {
         </p>
       </div>
 
-      {/* Filter Buttons */}
+     
       <div className="projectFilters">
         {categories.map((cat) => (
           <button
@@ -151,7 +151,7 @@ function Projects() {
         ))}
       </div>
 
-      {/* Projects Grid */}
+     
       <div className="projectsGrid">
         {filteredProjects.map((project) => (
           <div key={project.id} className="projectCard">
@@ -195,7 +195,7 @@ function Projects() {
         ))}
       </div>
 
-      {/* Modal/Popup */}
+     
       {showModal && selectedProject && (
         <div className="modalOverlay" onClick={closeModal}>
           <div className="modalContent" onClick={(e) => e.stopPropagation()}>
