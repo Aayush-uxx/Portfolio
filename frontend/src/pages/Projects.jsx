@@ -53,7 +53,7 @@ const projectsData = [
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
     features: ["Create leads", "Managing the status"],
     liveDemo: "https://minicrmfront.vercel.app/login",
-    github: "https://github.com/Aayush-uxx/FUTURE_FS_02",
+    github: "https://github.com/Aayush-uxx/Mini_CRM",
     challenges: "Managing all the Realtionship of the customers",
     solutions:
       "Implemented CRUD operation with a very friendly UI for the Admin",
@@ -77,7 +77,7 @@ const projectsData = [
     ],
     liveDemo:
       "https://portfolioaayush-git-main-aayush-s-projects13.vercel.app/",
-    github: "https://github.com/Aayush-uxx/FUTURE_FS_01",
+    github: "https://github.com/Aayush-uxx/Portfolio",
     challenges: "Implementing smooth theme transitions without flash.",
     solutions: "Used CSS variables and React Context for theme management.",
   },
@@ -99,7 +99,7 @@ const projectsData = [
     ],
     liveDemo:
       "https://salonfrontend-xi.vercel.app/",
-    github: "https://github.com/Aayush-uxx/FUTURE_FS_03",
+    github: "https://github.com/Aayush-uxx/Haircut-Booking-System",
     challenges: "Implementing Booking System for the user",
     solutions: "Used CSS variables and React Context for theme management.",
   },
